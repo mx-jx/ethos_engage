@@ -1,0 +1,16 @@
+project:
+  type: manuscript
+  output-dir: docs
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    toc: true
+    embed-resources: true
+    comments:
+      hypothesis: true
+  docx: default
+
+

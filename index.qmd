@@ -18,107 +18,13 @@ author:
     roles: []
     affiliations:
       - The Kirby Institute, UNSW Syndey, Sydney Australia
-  - name: Frederick Altice
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - Yale School of Medicine, Yale University, New Haven, Connecticut, United States
-  - name: Tom Hassett
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - Yale School of Medicine, Yale University, New Haven, Connecticut, United States
-  - name: Marianne Byrne
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - The National Drug and Alcohol Research Centre, UNSW Syndey, Sydney, Australia
-      - The Kirby Institute, UNSW Syndey, Sydney Australia
-  - name: Samantha Colledge
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - The National Drug and Alcohol Research Centre, UNSW Syndey, Sydney, Australia
-  - name: Phillip Read
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - Kirketon Road Centre, Sydney, New South Wales, Australia 
-      - Drug and Alcohol Services, Northern Sydney Local Health District, Sydney, New South Wales, Australia
-  - name: Mark Montebello
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - The National Drug and Alcohol Research Centre, UNSW Sydney, UNSW, Australia
-      - Drug and Alcohol Services, Northern Sydney Local Health District, Sydney, New South Wales, Australia
-      - University of Sydney, Sydney, New South Wales, Australia
-  - name: Jeremy Hayllar
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - Drug Health Service, South West Sydney Local Health District, New South Wales, Australia
-  - name: Sione Crawford
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - Harm Reduction Victoria, Victoria, Australia
-  - name: Charles Henderson
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - New South Wales Users and AIDS Association (NUAA), Sydney, Australia
-  - name: Michael Farrell
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - The National Drug and Alcohol Research Centre, UNSW Sydney, Sydney, Australia
-  - name: Chris Gough
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - CAHMA
-  - name: Louisa Degenhardt
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - The National Drug and Alcohol Research Centre, UNSW Syndey, Sydney, Australia
-  - name: Amy Peacock
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - The National Drug and Alcohol Research Centre, UNSW Syndey, Sydney, Australia
-  - name: Gregory J. Dore
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - The Kirby Institute, UNSW Syndey, Sydney Australia
-  - name: Jason Grebely
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - The Kirby Institute, UNSW Syndey, Sydney Australia
 keywords:
   - Opioid agonist therapy
   - Medications for opioid use disorder
   - Methadone
   - Burpenorphine
 abstract: |                                                                                          
-  **Background:** People who use opioids from an unregulated drug supply are increasingly exposed to related adverse social and health outcomes. Opioid agonist therapy (OAT) is effective in mitigating adverse outcomes, with individual preference identified as key to enhancing treatment. We examined OAT preferences and associated factors in a national sample of people who regularly use opioids. **Methods:** In this cross-sectional study, 400 people were enrolled between October 2020-April 2021. Participants completed an interviewer-administered questionnaire with questions on sociodemographic, behavioural, drug use- and treatment-related characteristics. Multivariable logistic regression was used to evaluate factors associated with treatment preferences. **Results:** Among all participants (mean age 45, 42% female), X%  preferred OAT, with X% and X% reporting a preference for methadone and buprenorphine respectively. who reported a preference for OAT, X% (n=X) preferred metahdone, while X% (n=X) preferred buprenorphine. participants who preferred methadone were more likely to have ever received OAT with methadone, and had used heroin (aOR X.XX, 95%CI:X.XX, X.XX) and other pharmaceutical opioids in the past month(aOR X.XX, 95%CI:X.XX, X.XX). Participants who preferred buprenorphine were more likely to have ever received OAT with burpenorphine (aOR X.XX, 95%CI:X.XX, X.XX). Among participants currently on OAT (n=317), X% in receipt of methadone and X% of buprenorphine were prescribed their preferred medication. Participants who preferred methadone were more likely to be receiving OAT with the same medication (aOR X.XX, 95%CI:X.XX, X.XX), had used and heroin (aOR X.XX, 95%CI:X.XX, X.XX) and other pharmaceutical opioids in the prior month (aOR X.XX, 95%CI:X.XX, X.XX). Participants who preferred buprenorphine were more likely to be currently receiving burpenorphine (aOR X.XX, 95%CI:X.XX, X.XX). **Conclusions:** Among people who regularly used opioids, most preferred to receive OAT with methadone and those currently receiving OAT were prescribed their preferred medication. Providers that do not offer a range of OAT and restrict choice of preferred medication risk negatively impacting treatment outcomes.
+  **Background:** People who use opioids from an unregulated drug supply are increasingly exposed to related adverse social and health outcomes. Opioid agonist therapy (OAT) is effective in mitigating adverse outcomes, with individual preference identified as key to enhancing treatment.
 
 plain-language-summary: |
   In a national sample of people who regularly use opioids, most preferred OAT with methadone. These participants were more likely to have ever received methadone, and have previously used heroin or non-prescrived pharmaceuticals. Among participants currently receiving OAT, almost all were receiving their preferred therapy.
@@ -326,46 +232,6 @@ shape <- read_sf(dsn = "C:/Users/mjstowe/OneDrive - UNSW/Desktop/R", layer = "Pr
 ethos.loc <- read.csv("~/GitHub/ethos/raw_data/ethos_locations.csv")
 
 ```
-
-```{r}
-remotes::install_github("MikkoVihtakari/ggOceanMapsData")
-```
-
-```{r}
-library(ggOceanMaps)
-#limits are given longitude min/max, latitude min/max
-basemap(limits = c(-140, 30, 30, 60),
-        bathymetry = TRUE,
-        glaciers = TRUE)
-```
-
-```{r}
-library(magrittr)
-library(glue)
-library(sf)
-
-# Specify bounding box
-xmin = 115.28
-xmax = 115.30
-ymin = -33.66
-ymax = -33.65
-
-# Read in DEA Coastlines annual shoreline data, using `glue` to insert our bounding 
-# box into the string, and `sf` to  load the spatial data from the Web Feature Service 
-# and set the Coordinate Reference System to Australian Albers (EPSG:3577)
-deacl_annualshorelines = "https://geoserver.dea.ga.gov.au/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=dea:shorelines_annual&maxFeatures=1000&bbox={ymin},{xmin},{ymax},{xmax},urn:ogc:def:crs:EPSG:4326" %>% 
-  glue::glue() %>%
-  sf::read_sf() %>% 
-  sf::st_set_crs(3577)
-
-# Read in DEA Coastlines rates of change points
-deacl_ratesofchange = "https://geoserver.dea.ga.gov.au/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=dea:rates_of_change&maxFeatures=1000&bbox={ymin},{xmin},{ymax},{xmax},urn:ogc:def:crs:EPSG:4326" %>% 
-  glue::glue() %>%
-  sf::read_sf() %>% 
-  sf::st_set_crs(3577)
-```
-
-
 
 
 ```{r echo=FALSE, include=TRUE}
