@@ -1,0 +1,443 @@
+---
+title: "ETHOS Engage"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+date: "`r Sys.Date()`"
+---
+
+```{r echo = FALSE, warning=FALSE, include = FALSE}
+#### Loading the required packages
+require(sf)
+require(ggplot2)
+require(cowplot)
+require(tmap)
+require(mapview)
+require(RColorBrewer)
+```
+
+### **ETHOS study site locations**
+
+ETHOS Engage is an observational cohort study. Participants were enrolled across two recruitment waves. During Wave 1 (May 2018- September 2019) recruitment occurred in 25 sites, including drug treat- ment clinics (n = 21) and needle and syringe programs (NSPs) (n = 4). During Wave 2 (November 2019-June 2021), participants were recruited from 21 of the 25 sites which participated in Wave 1, including drug treatment clinics (n = 19) and NSPs (n = 2) (Figure 1). Questions relating to OAT preference were only added to the questionnaire prior to the start of Wave 2. Data used in this study relate only to individuals recruited in Wave 2.  and date of birth. 
+
+The process involved with generating each map is included in the R code used to generate the plots and figures. 
+
+Reading in the shape file with the boundaries of the Primary Health Networks
+
+```{r}
+shape <- read_sf(dsn = "C:/Users/mjstowe/OneDrive - UNSW/Desktop/R", layer = "Primary_Health_Networks")
+```
+
+Reading in the .csv file that contains all the gps coordinates [latitude and longitude] 
+
+```{r}
+ethos.loc <- read.csv("ethos.locations.csv")
+```
+
+#### **Australia**
+Creating a map of Australia that shows all the states and territories. 
+
+```{r echo=FALSE, warning=FALSE, include = FALSE}
+
+map <- ggplot() + 
+  geom_sf(data = shape) +
+   xlim(105, 160) +
+  # geom_rect(aes(xmin = 148, xmax = 154, ymin = -36, ymax = -26), color = "red", fill =   NA) +
+  labs() +
+labs( x="",
+      y="") +
+  theme_test() +
+  theme(panel.background = element_rect(fill = "lightblue")) +
+    geom_point(aes(x = Longitude,
+                 y = Latitude, fill = "red"), shape= 21, colour="black", data = ethos.loc, size=2, show.legend = FALSE) 
+```
+
+Plotting the map of Australia
+```{r}
+map
+```
+
+#### Interactive Map of Primary Health Networks in Australia
+
+I have created an interactive map of Australia with the boundaries of the primary health networks displayed. Each site from Wave 2 of ETHOS is shown along with the number of participants recruited at each site, the number of participants who had detectable HCV RNA and the overall HCV RNA prevalance (%) for the site. 
+
+```{r echo=FALSE}
+ethos.loc <- read.csv("ethos.locations.csv") %>%
+  st_as_sf(coords = c("Longitude", "Latitude"), remove = FALSE)
+```
+
+```{r echo=FALSE}
+my.pal2 = brewer.pal(n=7, "GnBu")
+```
+
+```{r fgb=FALSE, warning=FALSE, echo=FALSE, include = TRUE}
+
+mapview(shape, alpha.regions = 0, colour = "red", lwd = 2, layer.name = "Primary Health Networks, Australia") + 
+mapview(ethos.loc, zcol="rna_prev", layer.name = "HCV RNA prevalence (%)", col.regions = my.pal2) + 
+mapview(ethos.loc, zcol="recruitment", layer.name = "No. of participants recruited")
+
+
+```
+
+
+```{r echo=FALSE, include=FALSE}
+pacman::p_load(
+  ggplot2 ,    # plotting and graphing results
+   rlang,      # read in excel files
+   forcats,    # read in excel files
+   broom,      # tidy code
+   readxl,     # read in excel files
+   pacman,     # loading and reading in packages
+   rio,        # importing data  
+   here,       # relative file pathways  
+   janitor,    # data cleaning and tables
+   lubridate,  # working with dates
+   matchmaker, # dictionary-based cleaning
+   epikit,     # age_categories() function
+   tidyverse,  # data management and visualization
+   gtsummary,  # logistic regression and plotting results
+   gt,         # for gtsummary 
+   flextable,  # table creation and manipulating
+   car,        # data management and visualization
+   readstata13,# read in Stata files
+   finalfit,   # logistic regression and plotting results
+   survminer,  # forest plots
+   easystats, 
+   BiocManager, 
+   survival, 
+   forestplot, 
+   rticles,     # templates for scientific journal articles in RMarkdown
+   jtools, 
+   corrplot, 
+   bstfun, 
+   ggforestplot, 
+   codebookr,
+   codebook,
+   sjlabelled, 
+   likert, 
+   kableExtra, 
+   haven, 
+   DT
+)
+
+```
+
+Creating a theme for the tables and presentation of logistic regression results. This theme uses font=Times New Roman, size 10 and no cell borders. 
+
+```{r echo=TRUE}
+apa_theme <- function (ft)  {
+  ft %>%
+    flextable::font(fontname = "Times New Roman", part = "all") %>% 
+    flextable::fontsize(size = 10, part = "all") %>% 
+    flextable::align(align = "left", part = "all") %>% 
+    flextable::align(align = "left", part = "header") %>% 
+    #flextable::rotate(rotation = "lrtb", align = "top", part = "body") %>% 
+    flextable::border_remove() %>% 
+    flextable::hline_top(border = officer::fp_border(width = 1.5), part = "all") %>% 
+    flextable::hline_bottom(border = officer::fp_border(width = 1.5), part = "all") %>%
+    flextable::hline_bottom(border = officer::fp_border(width = 1.5), part = "header") %>% 
+    flextable::hline_bottom(border = officer::fp_border(width = 1.5), part = "footer") %>% 
+     flextable::hline_bottom(border = officer::fp_border(width = 2), part = "all") %>%
+    flextable::autofit()
+}
+```
+
+Adding a compact theme to the theme that was created above and loaded.
+
+```{r}
+set_gtsummary_theme(theme_gtsummary_compact())
+```
+#### **Data management**
+
+```{r}
+ethos<- read_dta("enrollment survey POC merged_final.dta") 
+```
+
+Clean and simplify all the variable names. 
+```{r}
+ethos <- ethos %>% 
+  janitor::clean_names()
+```
+
+## **SECTION A: DEMOGRAPHIC AND BEHAVIOURAl CHARACTERISTICS**
+
+#### Waves
+
+```{r}
+ethos <- ethos %>% 
+  mutate(waves = case_when(
+    wave2 == 0 ~ "Wave 1",
+    wave2 == 1 ~ "Wave 2"
+  ))
+```
+
+#### Age 
+
+```{r}
+age <- as.numeric(ethos$surveyage)
+
+ethos <- ethos %>%
+  mutate(age = age)
+
+```
+
+#### Age group
+
+```{r include = FALSE}
+ethos <- ethos %>% 
+  mutate(age.group = case_when(
+    surveyage > 18 & surveyage < 30    ~ "< 29",
+    surveyage >= 30 &  surveyage < 40  ~ "30 - 39",
+    surveyage >= 40 &  surveyage < 50  ~ "40 - 49",
+    surveyage >= 50             ~ "> 50",
+    is.na(NA)                     ~ NA_character_,
+    TRUE                  ~ "Check me"))
+
+```
+
+```{r include = FALSE}
+# Reorder the variable "age.group" so that the levels are in descending order
+
+ethos <- ethos %>% 
+  mutate(age.group = fct_relevel(age.group,
+                                   "< 29",
+                                   "30 - 39",
+                                   "40 - 49",
+                                   "> 50"))
+```
+
+#### Homeless
+
+```{r include = FALSE}
+
+ethos <- ethos %>% 
+  mutate(homeless.fct= case_when(
+    homeless == 0 ~ "No",
+    homeless == 1 ~ "Yes"
+        ))
+```
+
+
+#### Ethnicity
+   
+```{r}
+ ethos <- ethos %>%
+   mutate(atsi = case_when(
+     eatsi == 0              ~ "Non-indigenous",
+     eatsi == 1              ~ "Aboriginal",
+     eatsi == 2              ~ "Torres Strait Islander",
+     eatsi == 3              ~ "Both Aboriginal and Torres Strait Islander",
+     eatsi == 99              ~ "Unknown"))
+
+```
+
+Reorder the ethnicity variable
+
+```{r}
+ ethos <- ethos %>%
+   mutate(atsi = fct_relevel(atsi,
+                            "Non-indigenous",
+                            "Aboriginal",
+                            "Torres Strait Islander",
+                            "Both Aboriginal and Torres Strait Islander",
+                            "Unknown"
+                            ))
+```
+
+Collapsing ethnicity categories into non-indigenous and aboriginal
+
+```{r}
+ atsi_collapse <- fct_collapse(ethos$atsi, Aboriginal = c("Torres Strait Islander", "Both Aboriginal and Torres Strait Islander"))
+```
+
+Add to the dataset
+
+```{r include = FALSE}
+ ethos <- ethos %>%
+   mutate(atsi_collapse=(atsi_collapse))
+```
+
+Create a new variable that asks if indigineous [yes/no]
+
+```{r include = FALSE}
+ ethos <- ethos %>%
+   mutate(indigenous.yn = case_when(
+     eatsi == 0              ~ "Non-indigenous",
+     eatsi == 1              ~ "Indigenous",
+     eatsi == 2              ~ "Indigenous",
+     eatsi == 3              ~ "Indigenous",
+     eatsi == 99              ~ "Unknown"))
+```
+
+```{r include=FALSE}  
+  
+tbl.aus <- ethos %>%
+tbl_summary(include = c(atsi, atsi_collapse, indigenous.yn
+                                           ),
+                    label = list(atsi ~ "Ethnicity", 
+                    atsi_collapse ~ "Aboriginal", 
+                    indigenous.yn ~ "Indigenous"
+                    ),missing = "no",
+              type = all_dichotomous() ~ "categorical",
+              statistic = all_continuous() ~ ("{median} ({p25} - {p75})")) %>%
+  add_stat_label()%>%
+  modify_footnote(update = everything() ~ NA, abbreviation = FALSE) %>%
+  modify_header(
+  label = "**Characteristic** \n (n = {N})")
+
+```
+
+```{r include=FALSE}
+tbl.aus.ft <- tbl.aus %>% 
+as_flex_table()%>%
+  apa_theme()
+```
+
+```{r}
+tbl.aus.ft
+```
+
+#### Incarceration 
+
+4. Have you ever been in prison or a juvenile justice centre?
+
+```{r}
+ethos <- ethos %>% 
+  mutate(prison.yn = case_when(
+    sapjjce == 1              ~ "Yes",
+    sapjjce == 0              ~ "No"
+
+    ))
+```
+
+5. Have you ever been in prison or a juvenile justice centre in the last 6 months?
+
+```{r include=FALSE}
+  ethos <- ethos %>% 
+  mutate(prison.6month = case_when(
+    sapjjcl6m == 0              ~ "No",
+    sapjjcl6m == 1              ~ "Yes"
+  ))
+```
+  
+```{r include=FALSE}  
+  
+tbl.prison <- ethos %>%
+tbl_summary(include = c(prison.yn, prison.6month
+                                           ),
+                    label = list(prison.yn ~ "Incarceration (ever)", 
+                    prison.6month ~ "Incarceration (<6 month)"
+                    ),missing = "no",
+              type = all_dichotomous() ~ "categorical",
+              statistic = all_continuous() ~ ("{median} ({p25} - {p75})")) %>%
+  add_stat_label()%>%
+  modify_footnote(update = everything() ~ NA, abbreviation = FALSE) %>%
+  modify_header(
+  label = "**Characteristic** \n (n = {N})")
+
+```
+
+```{r include=FALSE}
+tbl.prison.ft <- tbl.prison %>% 
+as_flex_table()%>%
+  apa_theme()
+```
+
+```{r}
+tbl.prison.ft
+```
+
+
+#### **Summary of Section A**
+Summary table of all the variables in Section A. 
+
+```{r include = FALSE}
+  
+  tbl.a <- ethos %>%
+  tbl_summary(percent = "row", include = c(age, age.group, prison.yn, 
+                                           prison.6month, atsi_collapse, 
+                                           atsi
+                                           ),
+                    label = list(age ~ "Age",
+                    age.group ~ "Age group"),missing = "no",
+              statistic = all_continuous() ~ ("{median} ({p25} - {p75})")) %>%
+  add_stat_label()%>%
+  modify_footnote(update = everything() ~ NA, abbreviation = FALSE) %>%
+  modify_header(
+    label = "**Characteristic** \n (n = {N})")
+  
+ 
+```
+
+```{r include = FALSE}
+tbl.a.ft <- tbl.a %>%
+  as_flex_table()%>%
+  apa_theme()
+```
+
+
+```{r}
+tbl.a.ft
+```
+
+
+## **SECTION E: OVERDOSE AND NALOXONE**
+
+81. Have you ever accidentally overdosed on any drug (including alcohol)? 
+
+```{r}
+ethos <- ethos %>% 
+  mutate(overdose.yn = case_when(
+    seon_lyr == 0              ~ "No",
+    seon_lyr == 1              ~ "Yes"
+  ))
+```
+
+83. Last time you accidentally overdosed which drugs had you taken?
+
+```{r}
+
+ethos <- ethos %>%
+   mutate(overdose.drug = case_when(
+    seon_drug1 == 1              ~ "Heroin",
+    seon_drug1 == 2              ~ "Methadone",
+    seon_drug1 == 3              ~ "Buprenorphine",
+    seon_drug1 == 4              ~ "Oxycodone",
+    seon_drug1 == 5              ~ "Morphine", 
+    seon_drug1 == 6              ~ "Codeine", 
+    seon_drug1 == 7              ~ "Tramadol", 
+    seon_drug1 == 8              ~ "Fentanyl [diverted]", 
+    seon_drug1 == 9              ~ "Benzodiazepines", 
+    seon_drug1 == 10             ~ "Cocaine", 
+    seon_drug1 == 11             ~ "Methamphetamine",
+    seon_drug1 == 12             ~ "Cannabis", 
+    seon_drug1 == 13             ~ "Alcohol", 
+    seon_drug1 == 77             ~ "Other"))
+
+```
+
+84. In the last year, have you accidentally overdosed on any opioids 
+
+```{r}
+ethos <- ethos %>% 
+  mutate(odopioids.yr.yn = case_when(
+    seon_lyr == 0              ~ "No",
+    seon_lyr == 1              ~ "Yes"
+  ))
+```
+
+85. How many times have you been administered naloxone (Narcan) in the past year
+
+```{r}
+ethos <- ethos %>%
+   mutate(overdose.drug = case_when(
+    seon_drug1 == 1              ~ "Ambulance",
+    seon_drug1 == 2              ~ "Friend/Peer",
+    seon_drug1 == 3              ~ "Family member",
+    seon_drug1 == 4              ~ "Healthcare worker",
+    seon_drug1 == 77              ~ "Other", 
+ ))
+```
+

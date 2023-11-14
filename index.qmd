@@ -1,0 +1,917 @@
+---
+title: Preferred medications for opioid agonist therapy and associated factors among people who regularly use opioids in Australia
+author:
+  - name: MJ Stowe
+    orcid: 0000-0002-0760-5497
+    corresponding: true
+    email: mjstowe@kirby.unsw.edu.au
+    roles:
+      - Investigation
+      - Project administration
+      - Software
+      - Visualization
+    affiliations:
+      - The Kirby Institute, UNSW Syndey, Sydney Australia
+  - name: Anna Conway
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The Kirby Institute, UNSW Syndey, Sydney Australia
+  - name: Frederick Altice
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - Yale School of Medicine, Yale University, New Haven, Connecticut, United States
+  - name: Tom Hassett
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - Yale School of Medicine, Yale University, New Haven, Connecticut, United States
+  - name: Marianne Byrne
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The National Drug and Alcohol Research Centre, UNSW Syndey, Sydney, Australia
+      - The Kirby Institute, UNSW Syndey, Sydney Australia
+  - name: Samantha Colledge
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The National Drug and Alcohol Research Centre, UNSW Syndey, Sydney, Australia
+  - name: Phillip Read
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - Kirketon Road Centre, Sydney, New South Wales, Australia 
+      - Drug and Alcohol Services, Northern Sydney Local Health District, Sydney, New South Wales, Australia
+  - name: Mark Montebello
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The National Drug and Alcohol Research Centre, UNSW Sydney, UNSW, Australia
+      - Drug and Alcohol Services, Northern Sydney Local Health District, Sydney, New South Wales, Australia
+      - University of Sydney, Sydney, New South Wales, Australia
+  - name: Jeremy Hayllar
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - Drug Health Service, South West Sydney Local Health District, New South Wales, Australia
+  - name: Sione Crawford
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - Harm Reduction Victoria, Victoria, Australia
+  - name: Charles Henderson
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - New South Wales Users and AIDS Association (NUAA), Sydney, Australia
+  - name: Michael Farrell
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The National Drug and Alcohol Research Centre, UNSW Sydney, Sydney, Australia
+  - name: Chris Gough
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - CAHMA
+  - name: Louisa Degenhardt
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The National Drug and Alcohol Research Centre, UNSW Syndey, Sydney, Australia
+  - name: Amy Peacock
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The National Drug and Alcohol Research Centre, UNSW Syndey, Sydney, Australia
+  - name: Gregory J. Dore
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The Kirby Institute, UNSW Syndey, Sydney Australia
+  - name: Jason Grebely
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The Kirby Institute, UNSW Syndey, Sydney Australia
+keywords:
+  - Opioid agonist therapy
+  - Medications for opioid use disorder
+  - Methadone
+  - Burpenorphine
+abstract: |                                                                                          
+  **Background:** People who use opioids from an unregulated drug supply are increasingly exposed to related adverse social and health outcomes. Opioid agonist therapy (OAT) is effective in mitigating adverse outcomes, with individual preference identified as key to enhancing treatment. We examined OAT preferences and associated factors in a national sample of people who regularly use opioids. **Methods:** In this cross-sectional study, 400 people were enrolled between October 2020-April 2021. Participants completed an interviewer-administered questionnaire with questions on sociodemographic, behavioural, drug use- and treatment-related characteristics. Multivariable logistic regression was used to evaluate factors associated with treatment preferences. **Results:** Among all participants (mean age 45, 42% female), X%  preferred OAT, with X% and X% reporting a preference for methadone and buprenorphine respectively. who reported a preference for OAT, X% (n=X) preferred metahdone, while X% (n=X) preferred buprenorphine. participants who preferred methadone were more likely to have ever received OAT with methadone, and had used heroin (aOR X.XX, 95%CI:X.XX, X.XX) and other pharmaceutical opioids in the past month(aOR X.XX, 95%CI:X.XX, X.XX). Participants who preferred buprenorphine were more likely to have ever received OAT with burpenorphine (aOR X.XX, 95%CI:X.XX, X.XX). Among participants currently on OAT (n=317), X% in receipt of methadone and X% of buprenorphine were prescribed their preferred medication. Participants who preferred methadone were more likely to be receiving OAT with the same medication (aOR X.XX, 95%CI:X.XX, X.XX), had used and heroin (aOR X.XX, 95%CI:X.XX, X.XX) and other pharmaceutical opioids in the prior month (aOR X.XX, 95%CI:X.XX, X.XX). Participants who preferred buprenorphine were more likely to be currently receiving burpenorphine (aOR X.XX, 95%CI:X.XX, X.XX). **Conclusions:** Among people who regularly used opioids, most preferred to receive OAT with methadone and those currently receiving OAT were prescribed their preferred medication. Providers that do not offer a range of OAT and restrict choice of preferred medication risk negatively impacting treatment outcomes.
+
+plain-language-summary: |
+  In a national sample of people who regularly use opioids, most preferred OAT with methadone. These participants were more likely to have ever received methadone, and have previously used heroin or non-prescrived pharmaceuticals. Among participants currently receiving OAT, almost all were receiving their preferred therapy.
+key-points:
+  - From our sample of people who regularly use opioids from around Australia. most preferred to receive opioid agonist therapy with methadone.
+  - Current OAT participants (n=317) comprised 78% (n=x) on methadone and 91% (n=x) on buprenorphine, with 78% (n=x) and 91% (n=x) receiving their preferred medication reservoirs.
+date: last-modified
+css: custom01.css
+bibliography: references.bib
+citation:
+  container-title: Patient Preferences
+number-sections: true
+---
+
+## Introduction
+
+People who use opioids from the unregulated market are increasingly
+exposed to related social and health harms [@milaneyscoping2022;
+@cheethamimpact2022], including fatal and non-fatal opioid-involved
+overdose [@santo2021; @åstrøm2023], incarceration [@gisev2019;
+@fazel2017], stigma [@treloar2022b] and structural violence
+[@lancaster2023a]. Use via injection is associated is several health
+risks [@brener2022; @colledge2019; @degenhardt2019] such as increased
+risk of HIV and HCV infection [@Grebely2022; @Martinello2017a;
+@hajarizadeh], skin and soft tissue infection [@wheeler2022] and
+endocarditis [@wurcel2016; @see2020]. Opioid agonist therapy (OAT) with
+methadone and buprenorphine is effective in reducing associated harms
+[@degenhardt2023; @Nielsen2016; @Nielsen2022; @Jones2022], with
+retention associated with improved social and health outcomes , and
+reduced quality-adjusted life-years lost compared to no treatment or
+non-pharmacological interventions [@martin2022]. Despite the efficacy of
+these medications [@degenhardt2023], treatment acceptability,
+satisfaction, and retention is sub-optimal, globally. Individual
+preferences for these medications play a pivotal role in determining
+positive treatment outcomes [@joosten2008]. With similar outcomes for a
+range of measures among particular subgroups between medications
+[@degenhardt2023], the choice between methadone and buprenorphine should
+be informed by consultation with each person after consideration of
+preferences and the relative risks and benefits of each medication to
+the indivudal. While a number of studies explore the role of treatment
+preferences generally [@uebelacker2016], relatively fewer number of
+studies focus specifically on factors associated with preferences for
+medication types [@kenney2018] and modes of delivery [@allen2023].
+
+Preferences around OAT and individual choice are identified as key to
+improving treatment outcomes and reducing potential harms associated
+with use of unregulated opioids [@muthulingam2023]. Preferences are
+comprised of attitudes, beliefs, expectations, values, and processes
+used to evaluate the costs and benefits of treatment options
+[@montori2013], with the decision for one formulation over another being
+largely preference sensitive [@keirns2009]. Understanding treatment
+preference could inform shared decision-making and help to overcome
+barriers to effective, person-centered healthcare and support
+[@maddensatisfaction2008]. However, about how opioid-dependent patients'
+preferences and previous experiences influence treatment decisions.
+Preferences, perceptions and acceptability of medication formulations
+vary widely based on each participant's individual experiences, goals,
+and values [@neale2018; @nealequalitative2023; @nealedepot2019].
+Previous studies exploring preferences for methadone and buprenorphine
+have beenStudies have compared patients' views of methadone with
+buprenorphine [@hillcomparison2015]. However, findings have been
+inconsistent and variable [@whitepatients2007]. Previous Studies into
+treatment preferences carried out in the United Kingdom [@neale2018;
+@tompkinsopioid2019], France [@rolland2021], North America
+[@saunders2020], and Australia [@larance2020] suggest that preferences
+for OAT is influenced by a range of physical, psychological and social
+factors [@lancaster2023]. Additional studies have explored preferences
+generally, however, understanding of factors that influence and
+contribute to stated preference are limited. Limitations of previous
+studies include limited geographic scope with samples from single
+clinics (e.g.[@bailey2013]) or cities (e.g.[@luty2004]), and relatively
+small samples and lack of power to investigate factors associated with
+OAT preferences (e.g. [@ridge2009]).
+
+In Australia, there are several formulations of buprenorphine currently
+available, including a monobuprenorphine formulation (Subutex) and
+buprenorphine-- naloxone formulations in a tablet or film and
+administered sublingually (Suboxone), and, more recently, long-acting
+injectable formulations that are administered once-weekly or
+once-monthly, dpending on the product (Buivdal and Sublocade). There are
+variations in OAT provision between jurisdictions due to decentralized
+funding of health services and the varied historical contexts across the
+country [@hall2023]. In some jurisdictions, OAT is dispensed exclusively
+at community pharmacies, while others have a mix of community pharmacy
+and public clinics. Community pharmacies offer longer opening hours and
+more accessible locations than public clinics, yet the out-of-pocket
+dispensing fees at pharmacy can make OAT prohibitively expensive
+[@tran2022; @zahra2022]. Historically, provision of OAT has been
+considered complex given its strict regulatory oversight and varied
+interpretation of guidelines among OAT prescribers. Despite providers
+differing in their interpretation of guidelines, OAT provision in
+Australia has been criticised for its rigidity in not adapting to the
+needs of people engaged in treatment [@crawfordshouting2013]. Many
+aspects of OAT provision also lack flexibility, and are often not
+person-centered, with limited access to unsupervised dosing and
+restrictive dosing times, which cumulatively decrease treatment
+adhearance [@hall2023]. It is important to understand preferences for
+the available medications to inform person-centered OAT provision and
+enhance treatment outcomes.
+
+Accessibility and diversity of OAT need to be enhanced to ensure that
+all people can receive their preferred OAT. Improved understanding of
+preference and factors associated with a preference for OAT preference
+is needed to inform policy and service provision. information on
+preference for different OAT options has shown to enhance patient
+acceptability, leading to increased OAT treatment uptake, adherence, and
+retention to improve clinical utility and facilitate planning,
+prioritization and investment in national strategies and
+guidelines.Extensive literature on patient participation in medication
+decision-making emphasizes that incorporating patient treatment
+preference leads to higher rates of retention and the desired outcomes
+[@friedrichs2016; @joosten2008]. Providers incorporating client
+preferences into treatment is linked to increased satisfaction, with
+individual choice, with alignment with preferred therapy leading to
+improved outcomes [@fallah2015; @joosten2008]. To better understand
+treatment preferences and develop an evidence-base to inform policy and
+treatment service design and delivery, we examined OAT preferences and
+associated factors among a national sample of people who regularly use
+opioids in Australia.
+
+## Data & Methods {#sec-data-methods}
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo=FALSE, include = FALSE, fig.align = "center")
+```
+
+```{r, echo = FALSE}
+# Load the packages required for the analysis. If packages haven't been installed yet, use install.packages() followed by the library() function.
+# 
+# Another way to load packages is through the pacman package using the p_load() function.
+
+pacman::p_load(
+   pacman, 
+   ggplot2,    # plotting and graphing results
+   rlang,      # read in excel files
+   forcats,    # read in excel files
+   broom,      # tidy code
+   readxl,     # read in excel files
+   pacman,     # loading and reading in packages
+   rio,        # importing data  
+   here,       # relative file pathways  
+   janitor,    # data cleaning and tables
+   lubridate,  # working with dates
+   matchmaker, # dictionary-based cleaning
+   epikit,     # age_categories() function
+   tidyverse,  # data management and visualization
+   gtsummary,  # logistic regression and plotting results
+   gt,         # for gtsummary 
+   flextable,  # table creation and manipulating
+   car,        # data management and visualization
+   readstata13,# read in Stata files
+   finalfit,   # logistic regression and plotting results
+   survminer,  # forest plots
+   easystats, 
+   BiocManager, 
+   survival, 
+   forestplot, 
+   rticles,     # templates for scientific journal articles in RMarkdown
+   jtools, 
+   corrplot, 
+   codebookr,
+   codebook,
+   sjlabelled, 
+   likert, 
+   kableExtra, 
+   haven,
+   here,
+   flexdashboard, # dashboard versions of R Markdown reports
+   plotly, # interactive plots
+   shiny, 
+   webshot, 
+   webshot2, 
+   grateful,
+   sf,
+   cowplot,
+   tmap,
+   mapview,
+   RColorBrewer
+   )
+
+```
+
+### Study design and participants {#sec-study-design}
+
+Enhancing Treatment of Hepatitis C in Opioid Substitution Settings (ETHOS) Engage is a national observational cohort study of people who have a history of injecting drug use, and report injecting drug use in the preceding six months or are currently receiving OAT (either methadone, buprenorphine, buprenorphine-naloxone or long-acting injectable buprenorphine in Australia). The study procedures have been described in detail elsewhere (Valerio et al., 2020). Participants were enrolled across two recruitment waves. During Wave 1 (May 2018- September 2019) recruitment occurred in 25 sites, including drug treatment clinics (n = 21) and needle and syringe programs (NSPs) (n = 4). Following Wave I, the study protocol and questionnaire was ammended to include questions around preferences for opioid agonist therapy and associated factors. Following this, only participants receruited in Wave II are included in this analyses and individuals who were enrolled within and between Wave 1 and Wave 2 were identified by two-by-two name code (first two letters of first name and last name) and date of birth included. During Wave 2 (November 2019-June 2021), participants were recruited from 21 of the 25 sites which participated in Wave 1, including drug treatment clinics (n = 19) and NSPs (n = 2) in New South Wales ( n = 17), Queensland (n = 4), South Australia (n = 2) and Western Australia ( n = 2) (@fig-map). The content within this article is presented following the 'Strengthening the reporting of observational studies in epidemiology'(STROBE) guidelines [@von2007; @Vandenbroucke2007]. A completed checklist of the STROBE requirements is available in the @sec-supp-material.
+
+Inclusion criteria were informed consent, age >18 years, and injecting drug use, either within the previous six months or lifetime history and current OAT. Due to contraindications with Fibroscan®, people who were pregnant were excluded from Wave The study protocol was amended for Wave 2 to include pregnant participants (FibroScan® was withheld for those individuals). The first enrolment was used for all participants who participated more than once within each recruitment wave. The initial study protocol and amendments were approved by the Human Research Ethics Committees at St Vincent’s Hospital, Sydney (HREC Ref: HREC/17/SVH/113) and the Aboriginal Health and Medical Research Council (HREC Ref: 1279/17).
+
+### Procedures {#sec-procedures}
+
+ETHOS Engage was advertised preceding recruitment with posters, cards distributed with sterile injecting equipment from NSPs and by word of mouth, but service staff were not directly involved in recruitment. Recruitment spanned one to five days per site and included a team of peers, university staff, and clinic personnel. Campaign days were run in multiple stages. First, participants provided 100μl finger-stick capillary whole-blood to test for HCV RNA using the point-of-care Xpert HCV Viral Load Fingerstick Assay (Cepheid, Sunnyvale, United States; lower limit of quantification 100IU/ml, upper limit of quantification log10 IU/ml; 100% sensitivity, 100% specificity) (Lamoury et al. 2018).Procedures are described in detail in Valerio (2021). Participants then self-completed a computer tablet-based questionnaire collecting demographics, behavioural risk, and HCV history, OAT preferences, drug use characteristics and drug treatment history. All participants were reimbursed (AUD$30 voucher) for their time and out-of-pocket expenses.
+
+
+
+```{r, message=FALSE}
+load(
+  here::here("data_processed", "ethos_working.rda"))
+
+load(
+  here::here("data_processed", "ethos_factors.rda"))
+
+shape <- read_sf(dsn = "C:/Users/mjstowe/OneDrive - UNSW/Desktop/R", layer = "Primary_Health_Networks")
+
+ethos.loc <- read.csv("~/GitHub/ethos/raw_data/ethos_locations.csv")
+
+```
+
+```{r}
+remotes::install_github("MikkoVihtakari/ggOceanMapsData")
+```
+
+```{r}
+library(ggOceanMaps)
+#limits are given longitude min/max, latitude min/max
+basemap(limits = c(-140, 30, 30, 60),
+        bathymetry = TRUE,
+        glaciers = TRUE)
+```
+
+```{r}
+library(magrittr)
+library(glue)
+library(sf)
+
+# Specify bounding box
+xmin = 115.28
+xmax = 115.30
+ymin = -33.66
+ymax = -33.65
+
+# Read in DEA Coastlines annual shoreline data, using `glue` to insert our bounding 
+# box into the string, and `sf` to  load the spatial data from the Web Feature Service 
+# and set the Coordinate Reference System to Australian Albers (EPSG:3577)
+deacl_annualshorelines = "https://geoserver.dea.ga.gov.au/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=dea:shorelines_annual&maxFeatures=1000&bbox={ymin},{xmin},{ymax},{xmax},urn:ogc:def:crs:EPSG:4326" %>% 
+  glue::glue() %>%
+  sf::read_sf() %>% 
+  sf::st_set_crs(3577)
+
+# Read in DEA Coastlines rates of change points
+deacl_ratesofchange = "https://geoserver.dea.ga.gov.au/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=dea:rates_of_change&maxFeatures=1000&bbox={ymin},{xmin},{ymax},{xmax},urn:ogc:def:crs:EPSG:4326" %>% 
+  glue::glue() %>%
+  sf::read_sf() %>% 
+  sf::st_set_crs(3577)
+```
+
+
+
+
+```{r echo=FALSE, include=TRUE}
+# Static map of ETHOS locations in Australia
+
+#| label: fig-map
+
+map <- ggplot() + 
+  geom_sf(data = shape) +
+   xlim(105, 160) +
+  # geom_rect(aes(xmin = 148, xmax = 154, ymin = -36, ymax = -26), color = "red", fill =   NA) +
+  labs() +
+labs( x="",
+      y="") +
+  theme_test() +
+  theme(panel.background = element_rect(fill = "lightblue")) +
+    geom_point(aes(x = Longitude,
+                 y = Latitude, fill = "red"), shape= 21, colour="black", data = ethos.loc, size=2, show.legend = FALSE) 
+
+map
+
+```
+
+```{r}
+ethos.loc <- read.csv("~/GitHub/ethos/raw_data/ethos_locations.csv") %>%
+  st_as_sf(coords = c("Longitude", "Latitude"), remove = FALSE)
+
+my.pal2 = brewer.pal(n=7, "GnBu")
+```
+
+```{r fgb=FALSE, warning=FALSE, echo=FALSE, include = TRUE}
+
+# Interactive map of ETHOS locations across Australia 
+
+mapview(shape, alpha.regions = 0, colour = "red", lwd = 2, layer.name = "Primary Health Networks, Australia")  +
+mapview(ethos.loc, zcol="rna_prev", layer.name = "HCV RNA prevalence (%)", col.regions = my.pal2) +
+mapview(ethos.loc, zcol="recruitment", layer.name = "No. of participants recruited")
+
+```
+
+
+### Outcomes {#sec-outcomes}
+
+The primary outcome was a preference for opioid agonist therapy, which was assessed by asking the question "*Of all the following types of medications used for opioid agonist therapy, if you could choose today, which one would you prefer?*" Options included methadone, monobuprenorphine (Subutex), buprenorphine-naloxone
+(Suboxone) taken orally as a film or tablet, long acting injectable
+buprenorphine (Buvidal or Sublocade), any treatment (i.e. no preference
+for any medication), and no treatment.
+
+Frequencies and percentages were generated from responses. 
+Demographic, behavioural, and clinical factors hypothesised to be associated with preference to receive OAT treatment were determined were determined through consultation with people who use drugs and previous research that looked into factors associated with OAT preferences (e.g. Stowe et al. 2023 in press; Larance et al. 2020; Rolland et al. 2019; 2021priori, comprising the following: 1) age at survey (18 - 29; 30 – 39; 40 – 49; > 50 years old) ), 2) gender (female; male; transgender), 3) education (< year 10; > year 10), 4) employment (formal; informal), 5) homelessness (yes; no), 6) incarceration history (never, >1 year ago, within the last year), 7) recency and frequency of injection drug use (>1 year ago, within 1–12 months ago, within the last month less than daily, and daily or more), 8) drugs injected in the last month (none, heroin, other opioids, methamphetamine, other), 9) previous OAT (yes; no), 10) previous OAT with methadone (yes; no); and 11) previous OAT with buprenorphine (yes; no). Among those currently receiving OAT, factors included 1) current OAT medication (methadone; buprenorphine; buprenorphine-naloxone; long acting depot buprenorphine; none) and current dosages (mg).
+
+6 The exposure of interest was recruitment Wave (Wave 1, May 2018 – September 2019; Wave
+7 2, November 2019 – June 2021). Other demographic and behavioural factors hypothesised to
+8 be associated with current HCV infection and HCV treatment were determined using
+9 previously published ETHOS Engage Wave 1 results (Valerio et al. 2021c) and included: (i)
+10 age at survey (stratified around median), (ii) gender (male, female, other [non11
+binary/transgender/other]), (iii) Aboriginal or Torres Strait Islander, (iv) homelessness, (v)
+12 OAT status (never, past, within the last month/current), (vi) incarceration history (never,
+13 history only [not recent], recent [previous 12 months in Wave 1 and previous six months in
+14 Wave 2]), (vii) recency and frequency of injecting drug use (>1 year ago, within the previous
+15 1-12 months, within the previous month <daily, and >daily). In analyses among those with
+16 injecting drug use in the previous month, injecting-related exposure variables were recoded as
+17 recency of injecting (<daily, >daily) and main drug injected in the last month was assessed
+18 (heroin, other opioids, methamphetamine, other).
+
+### Statistical analysis {#sec-analysis}
+
+The proportion of people who reported preference for methadone and
+factors associated with this preference was assessed. Quantitative
+parameters are presented as the median and interquartile range \[IQR\].
+Categorical parameters are presented as the number and percentage (n;
+%). The association between the response to each variable and the
+binarized category of preference for methadone was explored using
+logistic regression modeling through unadjusted bivariate analysis,
+providing an odds ratio and the 95 % confidence interval (OR \[95%
+CI\]), and comparisons adjusted for age category and gender, providing
+an adjusted OR (aOR) and the 95 % CI. A sample of those who would choose
+treatment and who had a preference for methadone or any buprenorphine
+forumation was selected for analysis (n=352) . Multivariable logistic
+regression was used assess factors associated with preferred medication
+for OAT. Unadjusted and adjusted odds ratios were derived using logistic
+regression and 95% confidence intervals calculated for all variables.
+For the final model, all the explanatory variables significantly
+associated with the outcome in the bivariate models were included in the
+multivariable model, whilst also adjusting for age and gender. The final
+model was assessed through examining which contributed significantly to
+model fit through backwards selection using decreasing values of Akaike
+Information Criterion. The variance inflation factor was used to assess
+collinearity in the final model [@obrien2007]. Individuals with missing
+values were not integrated in the models. A subset of the sample
+comprising of participants currently receiving OAT with methadone and
+buprenorphine (including sublingual-monobuprenorphine,
+buprenorphine-naloxone and long-acting injectable buprenorphine) was
+selected for analysis. There was no formal sample size calculation,
+however, based of similar previous surveys (e.g. [@larance2020;
+@rolland2021]) we aimed to recruit 300 - 400 people.
+
+The analytical approach received input from and was reviewed by people
+who use drugs, with lived- and living-experience of injecting drug use and opioid
+agonist therapy with various formulations of methadone and
+buprenorphine. Advice and perspectives were provided on the inclusion of
+explanatory variables and the clinical and practical significance of
+identified factors.
+
+The analysis was undertaken in using `R` version
+```r paste0(version$major, "." ,version$minor)``` using the following
+packages: gtsummary v. 1.7.2 [@gtsummary], finalfit v. 1.0.6
+[@finalfit], quarto v. 1.3 [@quarto] and rmarkdown v. 2.25 [@rmarkdown].
+The code for this analysis is available on request from the
+corresponding author. The data supporting the findings of this study are
+available within the article and its Supporting information. The
+analysis was not pre-registered and the results should be considered
+exploratory.
+
+### Study oversight {#sec-oversight}
+
+All participants provided written informed consent before study
+procedures. The study protocol were approved by the Human Research
+Ethics Committees at St Vincent's Hospital, Sydney (HREC Ref:
+HREC/17/SVH/113) and the Aboriginal Health and Medical Research Council
+(HREC Ref: 1279/17). This study was conducted according to the
+Declaration of Helsinki and International Conference on Harmonization
+Good Clinical Practice (ICH/GCP) guidelines.
+
+### Role of the Funding source {#sec-funding}
+
+The study was funded by a research grant from X. The funders had no role
+in the study design, data collection, analysis, interpretation of the
+results, writing or the decision to submit the study for publication.
+JG, AC, LD, and MJS had access to the raw data. The National Drug and
+Alcohol Research Centre and the Kirby Institute, UNSW Sydney
+collaborated to design the study, monitor study conduct, and perform the
+statistical analysis. X, X and X were responsible for the decision to
+submit the study for publication.
+
+## Results {#sec-results}
+
+```{r}
+# p <- p %>%
+# mutate(prefer.factor = fct_relevel(prefer.factor,"Methadone", "Buprenorphine"))
+```
+
+### Participant Characteristics {#sec-participants}
+
+Overall, XXX participants were enrolled (@fig-profile). The median age
+was XX years, XX% (n=XXX) were female, XX% (n=XX) incarcerated in the
+last six months and XX% (n=XX) were currently living with chronic pain
+(@tbl-participants).
+
+At enrollment, XX% (n=XX) had injected drugs in the month prior, with
+45% (n=141 of 310) having injected drugs \>daily. Most participants were
+treatment experienced (n = 344; 87%), with 91% (n=X) with most having
+received methadone (n = 319; 91%) compared to buprenorphine (n = 344;
+87%) (@tbl-s1). Among those who injected, commonly injected drugs in the
+prior month included heroin (90%), non-prescribed methadone (13%%),
+non-prescribed buprenorphine (10%), other non-prescribed pharmaceutical
+opioids (X%), methamphetamine (X%), cocaine (X%) and benzodiazepines
+(X%)
+
+Of the participants currently receiving OAT, XX% (n=XX) were prescribed
+methadone, XX% (n=XX) buprenorphine-naloxone (Suboxone), XX% (n=XX)
+long-acting injectable buprenorphine (Buivdal or Sublocade) 3% (n=9),
+buprenorphine (Subutex) and X% (n=X) were not in treatment. Among those
+receving treatment, most collected their last dose at pharmacies XX% (n=XX) or public clinics (n=111; 35%), with just over half (n=177; 56%)
+travelling less than five kilometers (@tbl-s2).
+
+```{r, echo=FALSE, include = TRUE, eval=TRUE}
+
+#| label: tbl-participants
+
+tbl_characteristics <- ethos_yn %>% 
+  filter(waves=="Wave 2")%>%
+  gtsummary::tbl_summary(
+    include = c(surveyage, genderall.factor,  homeless.fct,
+                     prison.yn, inject.month,
+                     inject.year, injectdrug.month,
+                     injectfreq.month, injectdays.month, 
+                     oat.ever.yn,  
+                     oat.type,
+                     methadone.dose,
+                     laib.dose.wk, 
+                     laib.dose.month,
+                     dose.satisfied, 
+                     dose.location, 
+                     dose.takeaways.yn,
+                     stigma.inject.yn, 
+                     discrim.yn),
+                   label = list(
+                            surveyage ~ "Age"),
+                           # edu.factor ~ "Formal education",
+                           # gender.mf ~ "Gender",
+                           # prison.yn ~ "Ever incarcerated", 
+                           # homeless.fct ~ "Currently homeless"
+                           # income.yn ~ "Currently employed",
+                           # chronicpain.yn ~ "Chronic pain",
+                           
+    statistic = list(all_categorical() ~ "{n} ({p}%)"), 
+    missing="no"
+  ) %>%
+  gtsummary::bold_labels() %>%   
+  gtsummary::modify_header(
+    label = "**Characteristic**", 
+    all_stat_cols() ~ "**{level}**\nN = {n}"
+  )
+
+tbl_characteristics.kable <- tbl_characteristics %>% 
+   gtsummary::as_kable_extra(
+    format = "html",
+    booktabs = TRUE,
+    longtable = TRUE,
+    linesep = "",
+    caption="Table 1. Demographic and behavioural characteristics of all participants enrolled in this study")%>%
+  kableExtra::kable_styling(
+      position = "left",
+      latex_options = c("striped", "repeat_header"),
+      stripe_color = "gray!15"
+    )
+
+tbl_characteristics.kable
+
+
+
+```
+
+### Preferences for OAT {#sec-preferences}
+
+Among all participants (n=X), X% (n=xx) would prefer to receive OAT,
+with XX% (n=XX) preferring either methadone or any formulation of
+buprenorphine and XX% (n=XX) choosing treatment, but having no preferred
+medication. Methadone was preferred by XX% (n=XX) and buprenorphine by
+XX% (n=XX).Among those who preferred buprenorphine, sublingual
+buprenorphine-naloxone was preferred by XX% (n=XX) and long-acting
+injectable buprenorphine by XX% (n=XX). A summary of sociodemographic
+characteristics stratified by preference is presented in @tbl-s1. Among
+participants currently receiving XX% (n=XX), XX% (n=XX) preferred
+either oral methadone or any formulation of buprenorphine, XX% (n=XX)
+would choose treatment, but had no preferred medications and XX% (n=XX)
+would prefer not to receive treatment. Methadone was preferred by 60%
+XX% (n=XX), oral and sublingual by XX% (n=XX) and long-acting injectable
+buprenorphine by XX% (n=XX). A summary of sociodemographic
+characteristics of people currently receiving OAT stratified by
+preference is presented in @tbl-s2.
+
+![Study profile](figures/profile.png){#fig-profile}
+
+```{r, include = FALSE, echo=F, message=FALSE, eval=TRUE}
+# p <- p %>%
+#   mutate(prefer.factor = fct_relevel(prefer.factor, "Methadone", "Buprenorphine"))
+
+# stratified.model <-  
+#   ethos_ny %>% 
+#   tbl_summary(by = prefer.factor, 
+#               include = c(age, age_group, 
+#                           gender.mf, edu.factor,
+#                           income.factor.yn, homeless.factor.yn,         
+#                           prison.factor, chronicpain.factor.yn,
+#                           heroin.month.factor,  
+#                           nonmethadone.month.factor,
+#                           nonbupe.month.factor, 
+#                           cocaine.month.factor, meth.month.factor, 
+#                           benzo.month.factor,otheropi.month.factor,
+#                           oat.yn.f, methadoneever.yn, bupeever.factor
+#               ),
+#               label = c(age ~ "Age",
+#                         agegroup ~ "Age group",
+#                         gender.mf ~ "Gender",
+#                         homeless.factor.yn ~ "Currently in stale housing",
+#                         otheropi.month.factor ~ "Non-prescribed pharmaceutical opioid use",
+#                         methadoneever.yn ~ "Ever received OAT with methadone",
+#                            bupeever.factor ~ "Ever received OAT with buprenorphine"
+#                           ),
+#               type = all_categorical()~"categorical",
+#               missing = "no",
+#               percent = "row",
+#               statistic = all_continuous() ~ ("{median} ({p25} - {p75})")) %>%
+#   add_stat_label()%>%
+#   add_overall(statistic = list(all_continuous()  ~ "{median} ({p25} - {p75})",
+#                                all_categorical() ~ "{n}")) %>% 
+#   modify_footnote(update = everything() ~ NA, abbreviation = FALSE) %>%
+#   modify_header(
+#     stat_0 = '**Enrolled** \n **(n = {n})**',
+#     stat_1 = '**Methadone** \n **(n = {n})**',
+#     stat_2 = '**Buprenorphine** \n **(n = {n})**'
+#   ) %>% 
+#   bold_labels()
+#  
+# 
+# stratified.model.kable <- stratified.model %>% 
+#    gtsummary::as_kable_extra(
+#     format = "html",
+#     booktabs = TRUE,
+#     longtable = TRUE,
+#     linesep = "",
+#     caption="Demographic and behavioural characteristics of all participants stratified by preference for methadone or buprenorphine (n=352)")%>%
+#   kableExtra::kable_styling(
+#       position = "left",
+#       latex_options = c("striped", "repeat_header"),
+#       stripe_color = "gray!15"
+#     )
+# 
+# stratified.model.kable
+
+```
+
+```{r, include = F, echo=F, message=FALSE, eval=TRUE}
+# p <- p %>%
+# mutate(prefer.factor = fct_relevel(prefer.factor, "Buprenorphine", "Methadone"))
+```
+
+```{r, include = F, echo=F, message=FALSE, eval=TRUE}
+# subset_cor <-
+#   p %>%
+#   dplyr::select(age, gender.mf,edu.factor, income.factor.yn, homeless.factor.yn,  
+#                 prison.factor, chronicpain.factor.yn, heroin.month.factor, 
+#                 nonmethadone.month.factor,
+#                 nonbupe.month.factor, otheropi.month.factor, 
+#                 cocaine.month.factor, meth.month.factor, benzo.month.factor, oat.yn.f, methadoneever.yn, bupeever.factor, prefer.factor) %>%
+#   tbl_uvregression(
+#     method = glm,
+#     y = prefer.factor, 
+#     label = list(age ~ "Age",
+#                  gender.mf ~ "Gender",
+#                  otheropi.month.factor ~ "Non-prescribed pharmaceutical opioid use",
+#                  homeless.factor.yn ~ "Currently in stale housing",
+#                  methadoneever.yn ~ "Ever received OAT with methadone",
+#                  bupeever.factor ~ "Ever received OAT with buprenorphine"),
+#     method.args = list(family = binomial),
+#     exponentiate = TRUE,
+#     hide_n = TRUE,
+#     pvalue_fun = function(x) style_pvalue(x, digits = 3)
+#   ) %>%
+#   modify_header(
+#     label = '**Variable**',
+#     estimate = '**cOR**',
+#     ci = '**95% CI**',
+#     p.value = '**p-value**'
+#   ) %>%
+#   modify_footnote(update = everything() ~ NA, abbreviation = TRUE) %>%
+#   modify_table_styling(
+#     column = estimate,
+#     rows = !is.na(estimate),
+#     cols_merge_pattern = "{estimate} ({conf.low} - {conf.high})"
+#   ) %>%
+#   modify_header(estimate ~ "**cOR (95% CI)**") %>%
+#   modify_table_styling(label = '**Enrolled** \n **(n = {n})**') %>%
+#   modify_column_hide(c(ci)) %>% 
+#   bold_labels()
+# 
+# subset_cor.kable <- subset_cor %>%
+#    gtsummary::as_kable_extra(
+#     format = "html",
+#     booktabs = TRUE,
+#     longtable = TRUE,
+#     linesep = "",
+#     caption="Results of a univariate logistic regression with crude odds ratios and 95% confidence intervals")%>%
+#   kableExtra::kable_styling(
+#       position = "left",
+#       latex_options = c("striped", "repeat_header"),
+#       stripe_color = "gray!15"
+#     )
+# 
+# subset_cor.kable
+
+```
+
+```{r, include = F, echo=F, message=FALSE, eval=TRUE}
+# subset_mod_final <- glm(prefer.factor ~ age + gender.mf +
+# heroin.month.factor + nonmethadone.month.factor + nonbupe.month.factor +
+# otheropi.month.factor + methadoneever.yn + bupeever.factor, data =
+# p, family = binomial)
+# 
+# 
+# model.final <- tbl_regression(subset_mod_final, exponentiate = TRUE,  
+#                               label = 
+#                                 list(age ~ "Age",
+#                                     gender.mf ~ "Gender",
+#                                     otheropi.month.factor ~ "Non-prescribed pharmaceutical opioid use",
+#                                     
+#                                     methadoneever.yn ~ "Ever received OAT with methadone",
+#                   bupeever.factor ~ "Ever received OAT with buprenorphine"
+#                   ),
+# pvalue_fun = function(x) style_pvalue(x, digits = 3))%>%
+# # pvalue_fun = ~style_sigfig(., digits = 4)                              )%>%
+#   modify_header(
+#     label = '**Variable**',
+#     estimate = '**aOR**',
+#     ci = '**95% CI**',
+#     p.value = '**p-value**'
+#   ) %>%
+#   modify_footnote(update = everything() ~ NA, abbreviation = TRUE) %>%
+#   modify_table_styling(
+#     column = estimate,
+#     rows = !is.na(estimate),
+#     cols_merge_pattern = "{estimate} ({conf.low} - {conf.high})"
+#   ) %>%
+#   modify_header(estimate ~ "**aOR (95% CI)**") %>%
+#   modify_column_hide(c(ci)) %>% 
+#   bold_labels() %>%
+#   modify_footnote(everything() ~ NA, abbreviation = TRUE)
+# 
+# kable.final <- model.final %>% 
+#    gtsummary::as_kable_extra(
+#     format = "html",
+#     booktabs = TRUE,
+#     longtable = TRUE,
+#     linesep = "",
+#     caption="Results of a multivariable logistic regression with adjusted odds ratios and 95% confidence intervals")%>%
+#   kableExtra::kable_styling(
+#       position = "left",
+#       latex_options = c("striped", "repeat_header"),
+#       stripe_color = "gray!15"
+#     )
+# 
+# kable.final
+
+```
+
+```{r, echo=FALSE, include=TRUE}
+# table_merged <-
+#   tbl_merge(
+#     tbls = list(stratified.model, subset_cor, model.final),
+#     tab_spanner = c("** **", "**Unadjusted model**", "**Adjusted model**")) %>%
+#   modify_header(label = "**Variable**") %>% # update the column header
+#   modify_footnote(everything() ~ NA)
+# 
+# table_merged.kable <- table_merged %>%
+#    gtsummary::as_kable_extra(
+#     format = "html",
+#     booktabs = TRUE,
+#     longtable = TRUE,
+#     linesep = "", 
+#     caption="Final model including crude odds ratios (cOR) and adjusted odds ratios (aOR)")%>%
+#   kableExtra::kable_styling(
+#       position = "left",
+#       latex_options = c("striped", "repeat_header"),
+#       stripe_color = "gray!15"
+#     )
+#     scroll_box(
+#   height = "50%",
+#   # width = "100%",
+#   box_css = "border: 1px solid #ddd; padding: 5px; ",
+#   extra_css = NULL,
+#   fixed_thead = TRUE
+# )
+
+# table_merged.kable
+
+```
+
+```{r}
+# table_merged.kable
+```
+
+### Factors associated with OAT preference {#sec-factors}
+
+Overall, participants who preferred methadone were more likely to have
+ever received OAT with methadone, and had used heroin (aOR X.XX,
+95%CI:X.XX, X.XX) and other pharmaceutical opioids in the month prior
+(aOR X.XX, 95%CI:X.XX, X.XX) (@fig-forest). Participants who preferred
+buprenorphine were more likely to have ever received OAT with
+burpenorphine (aOR X.XX, 95%CI:X.XX, X.XX).
+
+![Forest plot of sociodemographic and drug use-related factors
+associations with a preference for
+methadone](figures/forest_plot_all.png){#fig-forest}
+
+Participants who were currently receiving OAT and who preferred
+methadone were more likely to have ever received OAT with methadone, and
+had used heroin (aOR X.XX, 95%CI:X.XX, X.XX) and other pharmaceutical
+opioids in the past month (aOR X.XX, 95%CI:X.XX, X.XX) (@fig-forest).
+Participants who preferred buprenorphine were more likely to have ever
+received OAT with burpenorphine (aOR X.XX, 95%CI:X.XX, X.XX).
+
+![Forest plot of sociodemographic and drug use-related factors
+associations with a preference for methadone among participants
+currently receiving OAT](figures/forest_plot_oat.png){#fig-forest_oat}
+
+## Discussion
+
+
+
+### Limitations
+
+There are several limitations of the study to consider. Data comprising
+the study arise from cross sectional survey design and convenience
+sampling of harm reduction sites and voluntary participation of
+individuals within those sites, therefore these findings may not be
+generalizable to all people who use drugs. Study sites did not routinely
+collect information about numbers examined for eligibility, confirmed
+eligible and included in the study, and we are unable to report these
+details. However, the demographic characteristics of the current study's
+sample are consistent with those of other large Australian studies of
+people who are regularly use opioids (i.e. the majority male, typically
+aged early 40s, with the majority of OAT clients receiving methadone)
+Most of the sample were treatment experienced having ever received treatment
+with methadone (n=) or buprenorphine (n=x), and therefore, there was
+limited input from participants who had never previously sought
+treatment. Despite this, there is still a need to ensure that those
+currently receiving OAT are prescribed their preferred medication, and
+to understand preferences of those interersted in OAT to enhance
+treatment and improve overall satisfaction. In addition, although most
+participants preferred treatment with a particular medication (n=366),
+the sample of participants preferring sublingual buprenorphine (n=68)
+and long-acting injectable bupenorphine (n=68) was relatively small,
+limiting the statistical power to detect differences and
+representativeness. A larger and more diverse sample would enhance the
+study's reliability and enable more robust analysis. The survey's
+self-report nature may introduce bias, as participants' preferences
+might not fully align with their actual experiences with these
+medications.In addition, this study was conducted prior to the
+widespread implementation of long-acting injectable formulations of
+buprenorphine and participants were therefore largely unfamiliar to
+people receiving OAT. The lack of familiarity with these formulations is
+a potential source of bias as participants were reporting on
+hypothetical scenarios and anticipated preferences, benefits and
+disadvantages. Despite these limitations, this study provides important
+insights into preferred treatment and medications.
+
+## Conclusion
+
+In conclusion, this study provides valuable insight into medication
+preferences among people who regularly use opioids. Methadone was
+preferred over any available formulation of buprenorphine by the
+participants, where as similar number of participants preferred
+sublingual and long-acting injectable formulations of buprenorphine.
+Most those receiving treatment were prescribed their preferred
+medication, with previous treatment experience the strongest predictor
+of medication preference. Australian OAT guidelines recommend that
+client preferences are taken into account in choosing medications. These
+findings may act as a guide for those discussions that are had on an
+individual basis. Clinical decision making around treatment options must
+centre individual preference and balance suitability and choice of
+treatment.
+
+\pagebreak
+
+## References
+
+\singlespacing
+
+::: {#refs}
+:::
+
+\pagebreak
+
+## Supplementary Material {#sec-supp-material}
+
+### Table S1
+
