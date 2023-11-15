@@ -11,6 +11,6 @@ format:
     embed-resources: true
     comments:
       hypothesis: true
-  docx: default
+  # docx: default
 
 
