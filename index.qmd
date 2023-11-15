@@ -1,5 +1,5 @@
 ---
-title: Preferred medications for opioid agonist therapy and associated factors among people who regularly use opioids in Australia
+title: Opioid agonist therapy preferences and associated factors - findings from a cross-sectional study of people who regularly use opioids in Australia
 author:
   - name: MJ Stowe
     orcid: 0000-0002-0760-5497
@@ -13,6 +13,12 @@ author:
     affiliations:
       - The Kirby Institute, UNSW Syndey, Sydney Australia
   - name: Anna Conway
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - The Kirby Institute, UNSW Syndey, Sydney Australia
+  - name: Jason Grebely
     orcid: 0000-0002-7859-8394
     corresponding: false
     roles: []
@@ -203,9 +209,9 @@ my.pal2 = brewer.pal(n=7, "GnBu")
 
 # Interactive map of ETHOS locations across Australia 
 
-# mapview(shape, alpha.regions = 0, colour = "red", lwd = 2, layer.name = "Primary Health Networks, Australia")  +
-# mapview(ethos.loc, zcol="rna_prev", layer.name = "HCV RNA prevalence (%)", col.regions = my.pal2) +
-# mapview(ethos.loc, zcol="recruitment", layer.name = "No. of participants recruited")
+ mapview(shape, alpha.regions = 0, colour = "red", lwd = 2, layer.name = "Primary Health Networks, Australia")  +
+ mapview(ethos.loc, zcol="rna_prev", layer.name = "HCV RNA prevalence (%)", col.regions = my.pal2) +
+ mapview(ethos.loc, zcol="recruitment", layer.name = "No. of participants recruited")
 
 ```
 
